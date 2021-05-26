@@ -1,0 +1,115 @@
+.bg-login{
+  width: 100%;
+  height: 100%;
+  background-image: url('/assets/img/fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgb(0,0,0), rgb(0,0,0,0.700), rgb(0,0,0,0.750), rgb(0,0,0,0.800));
+}
+
+.padding-20 h2{
+  text-align: center;
+  color: white;
+  margin-top: 30%;
+}
+
+.padding-20 h5{
+  text-align: center;
+  color: rgb(250,250,250,0.8);
+
+}
+
+ .bg-transparent{
+  background: transparent;
+}
+
+.formulario .semconta{
+  color:  rgb(250,250,250,0.8);
+}
+
+form ion-input ion-icon{
+  color:  rgb(250,250,250,0.8);
+  margin: 5px;
+}
+form ion-button{
+  color:  rgb(250,250,250,0.8);
+}
+
+.formulario form ion-input{
+  width: 95%;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 3px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.semconta p, a{
+  /*color: rgb(250,250,250,);*/
+  text-align: center;
+}
+/*
+ion-item{
+  ion-input{
+    --background: red;
+    color: azure;
+  }
+}
+
+ion-item{
+  --background:transparent;
+  width: 95%;
+  margin: auto;
+  border: 1px solid pink;
+}*/
+
+ion-item{
+  ion-label{
+    color: white;
+  }
+}
+
+ion-item{
+  ion-input{
+    color: white;
+  }
+}
+
+ion-item{
+  --background:transparent;
+  width: 95%;
+  margin: auto;
+  --highlight-color-focused:none;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+.btn-cadastrar{
+  width: 95%;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.5;
+  color: gray;
+  margin: 10px;
+}
+
+p{
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+

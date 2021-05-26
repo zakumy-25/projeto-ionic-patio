@@ -1,0 +1,46 @@
+<ion-content>
+  <!--Img Fundo-->
+  <div class="bg-login">
+    <!--Overlay-->
+    <div class="overlay">
+      <!--conteudo-->
+      <div class="principal">
+        <!--textos-->
+        <div class="padding-20">
+            <h2>Bem vindo de volta!</h2>
+            <h5>Entre com a sua conta para continuar</h5>
+        </div>
+
+        <!--Formulario-->
+        <!--<div class="formulario">
+          <form>
+            <ion-input type = 'email' placeholder = 'seu email'><ion-icon name="mail-outline"></ion-icon></ion-input>
+            <ion-input type = 'password' placeholder = 'sua senha'><ion-icon name="key-outline"></ion-icon></ion-input>
+
+            <ion-button expand='full' color='success'><ion-icon name="log-in-outline"></ion-icon>Login</ion-button>
+
+          </form>
+          <div class="semconta">
+            <p>Sem conta? <a>cadastre-se agora</a></p>
+          </div>
+        </div>-->
+
+        <ion-item>
+          <ion-label position="floating">Email</ion-label>
+          <ion-input type='email' placeholder='digite seu email'></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Senha</ion-label>
+          <ion-input type='password'></ion-input>
+        </ion-item>
+
+        <button class="btn-cadastrar" (click)='login()'>Entrar</button>
+        <p (click)='cadastrarUsuario()'>Não possui conta? cadastre já!</p>
+
+
+
+      </div>
+    </div>
+  </div>
+</ion-content>
